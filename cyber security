@@ -60,7 +60,8 @@ console.log(decryptionCount) // Your sensitive data
 
 /**
  * file encryption
- */
+ */ 
+import
 const encryptedPath = join(process.cwd(), 'example/encrypted.ec')
 const decryptedPath = join(process.cwd(), 'example/output.jpg')
 encryptor.encryptFile(join(process.cwd(), '__test__/sample.jpg'), { writeToFile: encryptedPath })
